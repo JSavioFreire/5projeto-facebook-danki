@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <meta name="description" content="Rede social">
+    <meta name="keywords" content="redesocial , amigos , familia">
+    <meta name="author" content="Sávio Freire">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div id="imagem"> 
+            <img src="imagens/facebook.jpg" alt="logofacebook" title="Facebook">
+        </div> <!--imagem-->
+        <section id="login">
+            <div class="separados">
+                <p>E-mail ou telefone</p>
+                <input type="text" class="logar" name="login">
+            </div><!--separados-->
+            <div class="separados">
+                <p>Senha</p>
+                <input type="password" class="logar" name="senha" >
+                <a href="#" id="esqueceu">
+                    <p>Esqueceu a senha?</p>
+                </a>
+            </div><!--separados-->
+            <div class="separados">
+                <input type="button" value="Entrar" id="bt">
+            </div><!--separados - bt-->
+        </section> <!--login-->
+    </header> 
+        <main>
+            <section>
+                <h1>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h1>
+            </section>
+            <aside>
+                <form action="criarConta">
+                    <legend id="abra">Abra sua conta</legend>
+                    <legend id="gratuito">É gratuito e sempre será.</legend>
+                        <div class="nome"><input type="text" name="nome" placeholder="Nome"></div>
+                        <div class="nome"><input type="text" name="sobrenome" placeholder="Sobrenome"></div>
+                        <div><input type="text" name="celularouemail" placeholder="Celular ou email"></div>
+                        <div><input type="text" name="senha" placeholder="Senha"></div>
+                        <div id="data">
+                            <p id="pdata">Data de nascimento</p>
+                            <input type="date" name="data" id="idata">
+                            <div id="ldata"><a href="#"><label for="data">Por que preciso informar minha data de nascimento?</label></a></div>
+                        </div><!--data-->
+                        <div id="sexo">
+                            <input type="radio" name="sexo" class="sexo" checked>
+                            <label for="sexo">Masculino</label>
+                            <input type="radio" name="sexo" class="sexo">
+                            <label for="sexo">Feminino</label>
+                        </div><!--sexo-->
+                        <div id="termo">
+                            <p>Ao clicar em cadastre-se, você concorda com nossos <a href="#">Termos de Política de Dados e Política de Cookies</a>. Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
+                        </div>
+                        <div id="cadastrese"><input type="button" value="Cadastre-se" id="btcadastrese"></div>
+                </form><!--formulario-->
+            </aside>
+        </main>
+    <footer>
+        <p>Português(Brasil) | English(US) | Español | Français | Italiano | Deustch</p>
+        <p>Cadastre-se | Entrar | Messenger | Facebook Lite | celular | Encontrar amigos | Pessoas</p>
+    </footer>
+    
+    
+</body>
+</html>

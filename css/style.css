@@ -1,0 +1,166 @@
+@charset "UTF-8";
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+    --corprincipal:#00539F
+}
+header{
+    background-color: var(--corprincipal);
+    width: 100%;
+}
+
+        /*LOGO*/
+
+header #imagem{
+    display: inline-block;
+    width: 17%;
+    margin-left: 17%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+header #imagem img{
+    width: 100%;
+}
+
+        /*LOGIN*/
+
+header #login{
+    width: 40%;
+    display: inline-block;
+    margin-left: 20%;
+    vertical-align: middle;
+    color: white;
+    margin-top: 15px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.36);
+}
+header #login .separados{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+}
+header #login #bt{
+    margin: 19px 0 10px 0;
+    color: white;
+    background-color: var(--corprincipal);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.423);
+    width: 60px;
+    border: 2px solid black;
+    cursor: pointer;
+
+}
+header #login input{
+    border: 1px solid black;
+    padding: 2px;
+    box-sizing: border-box;
+    height: 28px;
+    border-radius: 3px;
+    margin: 2px 0;
+}
+header #login input:focus{
+    outline: none;
+}
+header #login #esqueceu{
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+}   
+
+        /*Textinho*/
+
+main > section{
+    width: 40%;
+    margin: 9% 0 0 8%;
+    display: inline-block;
+    vertical-align: top;
+}
+main section h1{
+    font-size: 30px;
+}
+
+        /*Criar conta*/
+
+
+main aside{
+    width: 40%;
+    display: inline-block;
+    margin: 2% 0 0 5%;
+
+}
+main aside legend{
+    font-size: 22px;
+    font-weight: 600;
+}
+main aside #abra{
+    font-size: 40px;
+}
+main aside #gratuito{
+    font-size: 20px;
+    margin: 10px 0 25px 0;
+}
+main aside input{
+    padding: 10px;
+    width: 70%;
+    margin: 4px;
+    box-sizing: border-box;
+}
+main aside .nome{
+    display: inline-block;
+    width: 41%;
+    margin-right: -4px;
+}
+main aside #data{
+    margin-top: 30px;
+}
+main aside #pdata{
+    font-weight: 600;
+}
+main aside #idata{
+    width: 28%;
+}
+main aside #ldata {
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+}
+main aside #ldata a{
+    color: gray;
+    text-decoration: none;
+  
+}
+main aside #sexo{
+    margin: 20px 0;
+}
+main aside .sexo{
+    width: 50px;
+}
+main aside #termo p{
+    font-size: 13px;
+}
+main aside #termo a{
+    color: black;
+}
+main aside #cadastrese{
+    width: 50%;
+    margin: 20px 0;
+}
+main aside #cadastrese #btcadastrese{
+    color:white;
+    background-color: rgb(60, 172, 60);
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.248);
+    cursor: pointer;
+}
+
+/*footer*/
+footer{
+    margin-top: 15px;
+}
+footer p{
+    font-size: 12px;
+    color: gray;
+}
